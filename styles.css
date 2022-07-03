@@ -93,7 +93,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+/*
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -103,7 +103,7 @@ abbr[data-original-title] {
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
-}
+}*/
 
 address {
   margin-bottom: 1rem;
@@ -11970,10 +11970,10 @@ a.text-dark:focus {
   a:not(.btn) {
     text-decoration: underline;
   }
-
+/*
   abbr[title]::after {
     content: " (" attr(title) ")";
-  }
+  }*/
 
   pre {
     white-space: pre-wrap !important;
