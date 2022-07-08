@@ -19,6 +19,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    padding-right: 100px;
     background-color: teal;
     color: #fff;
    }
