@@ -1,9 +1,9 @@
-:root{
---teal: #007f7fff;
---black: #000000ff;
---white: #fefffeff;
---yale-blue: #054a91ff;
---cinnabar: #e74e35ff;
+:root {
+    --teal: #007f7fff;
+    --black: #000000ff;
+    --white: #fefffeff;
+    --yale-blue: #054a91ff;
+    --cinnabar: #e74e35ff;
 }
 
 
@@ -99,9 +99,3 @@ a {
     display: block;
 }
 
-#Logo {
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-}
