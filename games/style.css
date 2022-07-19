@@ -15,7 +15,7 @@
 body {
     font-family: sans-serif;
     background-color: black;
-    color: black;
+    color: #ffffff;
 }
 
 a {
@@ -63,4 +63,34 @@ ul.navbar {
 #container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dodge {
+    width: "1024";
+    height: "600px";
+    margin: 0 auto;
+
+}
+
+.dodge p {
+    float: right;
+    width: 45%;
+    margin: 6px;
+    font-size: 55px;
+
+}
+
+.dodge iframe {
+    float: left;
+    display: block;
+    border-style: solid;
+    border-color: #333;
+    border-width: 3px;
+    float: left;
+    width: 50%;
+    margin: 6px;
+}
+
+.fulllscreen {
+    background-color: #ffffff;
 }
