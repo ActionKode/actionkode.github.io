@@ -21,6 +21,9 @@ body {
 a {
     text-decoration: none;
 }
+h1{
+    font-size: xx-large;
+}
 
 ul.navbar {
     list-style-type: none;
@@ -103,17 +106,20 @@ ul.navbar {
 
 .game-thumbnail img {
     width: 500px;
-    background-color: grey;
+    background-color: #ffffff00;
 }
 
 .game-thumbnail {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 520px;
+    width: 220px;
+    font-size: 25px;
+    margin: 50px;
 }
-a:link .game-thumbnail {
+a.game-thumbnail {
     color: #ffffff;
+    
 }
 
 /* visited link */
