@@ -102,7 +102,7 @@ ul.navbar {
 }
 
 .game-thumbnail img {
-    width: 100px;
+    width: 500px;
     background-color: grey;
 }
 
@@ -110,7 +110,7 @@ ul.navbar {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: 520px;
 }
 a:link .game-thumbnail {
     color: #ffffff;
