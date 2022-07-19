@@ -95,6 +95,38 @@ ul.navbar {
 .fulllscreen {
     background-color: #ffffff;
 }
-.center{
+
+.center {
     text-align: center;
+
+}
+
+.game-thumbnail img {
+    width: 100px;
+    background-color: grey;
+}
+
+.game-thumbnail {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+a:link .game-thumbnail {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited.game-thumbnail {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover.game-thumbnail {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active.game-thumbnail {
+    color: #ffffff;
 }
