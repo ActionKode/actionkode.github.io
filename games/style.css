@@ -118,21 +118,21 @@ ul.navbar {
     
 }
 
-a.img-with-text {
+.img-with-text a{
     color: #ffffff;
 }
 
 /* visited link */
-a:visited.img-with-text {
+.img-with-text a:visited{
     color: #ffffff;
 }
 
 /* mouse over link */
-a:hover.img-with-text {
+.img-with-text a:hover{
     color: #ffffff;
 }
 
 /* selected link */
-a:active.img-with-text {
+.img-with-text a:active{
     color: #ffffff;
 }
