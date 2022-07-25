@@ -21,7 +21,8 @@ body {
 a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     font-size: xx-large;
 }
 
@@ -104,35 +105,34 @@ ul.navbar {
 
 }
 
-.game-thumbnail img {
-    width: 500px;
-    background-color: #ffffff00;
+
+.img-with-text {
+    text-align: center;
+    width: 250px;
 }
 
-.game-thumbnail {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 220px;
-    font-size: 25px;
-    margin: 50px;
-}
-a.game-thumbnail {
-    color: #ffffff;
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
     
 }
 
+.img-with-text a{
+    color: #ffffff;
+}
+
 /* visited link */
-a:visited.game-thumbnail {
+.img-with-text a:visited{
     color: #ffffff;
 }
 
 /* mouse over link */
-a:hover.game-thumbnail {
+.img-with-text a:hover{
     color: #ffffff;
 }
 
 /* selected link */
-a:active.game-thumbnail {
+.img-with-text a:active{
     color: #ffffff;
 }
