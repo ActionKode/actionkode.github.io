@@ -1,0 +1,150 @@
+:root {
+    --teal: #007f7fff;
+    --black: #000000ff;
+    --white: #fefffeff;
+    --yale-blue: #054a91ff;
+    --cinnabar: #e74e35ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 850px;
+
+}
+
+#home {
+    position: relative;
+    width: auto;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dodge {
+    width: "1024";
+    height: "600px";
+    margin: 0 auto;
+
+}
+
+.dodge p {
+    float: right;
+    width: 45%;
+    margin: 6px;
+    font-size: 55px;
+    color: #ffffff;
+
+}
+
+.dodge iframe {
+    float: left;
+    display: block;
+    border-style: solid;
+    border-color: #333;
+    border-width: 3px;
+    float: left;
+    width: 50%;
+    margin: 6px;
+}
+
+.fulllscreen {
+    background-color: #ffffff;
+}
+
+.center {
+    text-align: center;
+
+}
+#gallery-lil-brute{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 108px;
+    width: auto;
+    
+
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* visited link */
+div.gallery a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+div.gallery a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+div.gallery a:active {
+    color: #ffffff;
+}
