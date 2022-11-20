@@ -75,7 +75,10 @@ ul.navbar {
     margin: 0 auto;
 
 }
-
+.dodge img{
+    width: "600px";
+    height: "600px";   
+}
 .dodge p {
     float: right;
     width: 45%;
@@ -100,33 +103,19 @@ ul.navbar {
     background-color: #ffffff;
 }
 
-.center {
+.textcenter {
     text-align: center;
 
 }
-#gallery-lil-brute{
+
+.gallery-lil-brute {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 108px;
     width: auto;
-    
 
-}
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
 }
 
 div.desc {
@@ -134,17 +123,15 @@ div.desc {
     text-align: center;
 }
 
-/* visited link */
-div.gallery a:visited {
-    color: #ffffff;
+.gallery-container {
+    display: grid;
+    grid: 25% / auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
 }
 
-/* mouse over link */
-div.gallery a:hover {
-    color: #ffffff;
-}
-
-/* selected link */
-div.gallery a:active {
-    color: #ffffff;
+.gallery-container>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
