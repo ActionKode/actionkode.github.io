@@ -1,0 +1,13 @@
+:root {
+    --teal: #007f7fff;
+    --black: #000000ff;
+    --white: #fefffeff;
+    --yale-blue: #054a91ff;
+    --cinnabar: #e74e35ff;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: #ffffff;
+}

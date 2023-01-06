@@ -10,7 +10,8 @@
     <!-- Metadata -->
     <meta name="keywords" content="actionkode, Action Kode, actionkode games">
     <meta name="description" content="Action Kode is a video game studio run by two teenage boys">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/css/header_fotter.css">
     <!-- OpenGraph Metadata-->
     <meta property="og:title" content="Lil-Brute">
     <meta property="og:description" content="Lil-Brute is a 2D platformer created entirely from PyGame.">
@@ -23,11 +24,16 @@
 </head>
 
 <body>
-    <ul class="navbar">
-        <li><a class="active" href="/#home">Home</a></li>
-        <li><a href="/games/">games</a></li>
-        <li><a href="https://actionkode.github.io/#about">About</a></li>
-    </ul>
+    <header>
+        <div class="header">
+            <img src="/img/Action-Kode-logos_white.png" alt="Action Code logo">
+            <div class="header-right">
+                <a class="active" href="/#home">Home</a>
+                <a href="/games/index.html">Games</a>
+                <a href="/#about">About</a>
+            </div>
+        </div>
+    </header>
     <div class="add">
         <script async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8956748095389892"
@@ -58,13 +64,20 @@
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8956748095389892"
             crossorigin="anonymous">
             </script>
-            <!-- actionkode side ads -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8956748095389892"
-                data-ad-slot="3081951221" data-ad-format="auto" data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+        <!-- actionkode side ads -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8956748095389892"
+            data-ad-slot="3081951221" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
+    <footer>
+        <div class=”footer-bottom”>
+            <p style="padding-bottom: 10px;">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a href="/">Action Kode games</a>
+            </p>
+        </div>
+    </footer>
 
 </body>
 
