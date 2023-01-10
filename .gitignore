@@ -1,4 +1,6 @@
-/push.bat
-/.git
-/pull.bat
-/format.js
+# apache server files
+/modules
+/server.conf
+conf/
+logs/
+httpd.conf

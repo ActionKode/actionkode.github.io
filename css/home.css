@@ -12,16 +12,17 @@ body {
     background-color: black;
     color: #ffffff;
 }
-
-.textcenter {
-
-    text-align: center;
-}
-
-.color-white {
+.row {
+    width: 100%;
+    height: auto;
+    background-color: var(--black);
     color: var(--white);
+    display: flex;
 }
 
+#adon{
+    background-color:var(--gray) ;
+}
 .blog {
     margin: auto;
     width: 50%;
