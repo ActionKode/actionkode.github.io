@@ -8,18 +8,6 @@
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: var(--black);
-    font-family: sans-serif;
-}
-
-
 /* Style the header with a grey background and some padding */
 .header {
     top: 0;
@@ -148,5 +136,13 @@ footer {
     width: 100vw;
     padding: 10px;
     text-align: center;
+    color: white;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+.copyright a:visited{
+    color: white;
 }
 

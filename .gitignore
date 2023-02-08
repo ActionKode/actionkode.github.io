@@ -4,3 +4,5 @@
 conf/
 logs/
 httpd.conf
+*.bat
+.vs

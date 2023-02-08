@@ -1,32 +1,56 @@
-:root {
-    --teal: #007f7fff;
-    --black: #000000ff;
-    --gray: #2d2c2c;
-    --white: #fefffeff;
-    --yale-blue: #054a91ff;
-    --cinnabar: #e74e35ff;
+/* TEAM CSS
+Three columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    
 }
 
-body {
-    font-family: sans-serif;
-    background-color: black;
-    color: #ffffff;
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
 }
-.row {
-    width: 100%;
-    height: auto;
-    background-color: var(--black);
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
     color: var(--white);
-    display: flex;
+    padding: 0 16px;
 }
 
-#adon{
-    background-color:var(--gray) ;
+/* Clear floats */
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-.blog {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+
+.title {
+    color: var(--white);
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
     text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
 
+.button:hover {
+    background-color: #555;
 }

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lil-Brute-and-Friends-PC</title>
-    <link rel="shortcut icon" href="https://actionkode.github.io/favicon.ico" type="image/x-icon">
+    <title>Lil Brute and Friends PC</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <!-- Metadata -->
     <meta name="keywords" content="actionkode, Action Kode, actionkode games">
     <meta name="description" content="Action Kode is a video game studio run by two teenage boys">
@@ -18,9 +18,6 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://actionkode.github.io/games/Lil-Brute-and-Friends-PC.html">
     <meta property="og:image" content="https://actionkode.github.io/favicon.ico">
-    <!--google addsense-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8956748095389892"
-        crossorigin="anonymous"></script>
 
 </head>
 
@@ -29,7 +26,7 @@
         <div class="header">
             <img src="/img/Action-Kode-logos_white.png" alt="Action Code logo">
             <div class="header-right">
-                <a class="active" href="#home">Home</a>
+                <a class="active" href="/#home">Home</a>
                 <a href="/games/index.html">Games</a>
                 <a href="#about">About</a>
             </div>
@@ -38,26 +35,58 @@
     <div class="blog">
         <p>Lil Brute and Friends is a 2D platformer created entirely from PyGame. It is designed to have 3 playable
             characters, 23 short levels, 6 different bosses, and a homemade OST.
-            The assets are mostly from <a href="https://www.kenney.nl/assets">Kenney</a>. <br>
-
-            This is a preview of the default player, Stan:
+            The assets are mostly from <a style="color: rgb(200, 200, 200); text-decoration: underline;"
+                href="https://www.kenney.nl/assets">Kenney</a>. <br>
+            It is still a work in progress and probably will take a long time to finish.
+        </p>
+        <div id="stan" style="float: right; width: 96px;">This is a preview of the default player, Stan:
+            <br>
             <img src="https://user-images.githubusercontent.com/109243857/182041620-4b465868-9f8a-4dc7-8b80-772d9b656496.png"
                 alt="player stan">
             <br>
-
-            It is still a work in progress and probably will take a long time to finish.
-        </p>
-        <h2>DEMO</h2>
-        <iframe src="./game/" frameborder="0" height="600" width="800">loading...</iframe>
+        </div>
+        <div id="gameframe">
+            <!--<button onclick="playgame()">DEMO</button>-->
+            <h2>DEMO</h2>
+            <iframe style="overflow: hidden;" src="./game/index.html" frameborder="0" width=800 height="600"></iframe>
+        </div>
     </div>
-    <footer style="padding: 10px;" class="textcenter">
+    <footer style="padding: 10px;" class="textcenter copyright">
         <div class="footer">
             <p>Copyright
                 <script>document.write(new Date().getFullYear())</script> &copy; <a href="/">Action Kode games</a>
             </p>
         </div>
     </footer>
+    <script type="application/javascript">
+        function playgame() {
+            const prams = "popup,width=800,heigt=600,resizable=no";
+            popup = window.open('/games/Lil-Brute-and-friends/game', "_blank", prams);
+        }
+        var gameFrame = document.getElementById("gameframe");
+        function check(el) {
+            var curOverf = el.style.overflow;
 
+            if (!curOverf || curOverf === "visible")
+                el.style.overflow = "hidden";
+
+            var isOverflowing = el.clientWidth < el.scrollWidth
+                || el.clientHeight < el.scrollHeight;
+
+            el.style.overflow = curOverf;
+
+            return isOverflowing;
+        }
+
+
+        if (check(gameFrame)) {
+            gameFrame.style.display = 'none';
+            document.getElementById('stan').style.float = 'none'
+            document.getElementById('stan').style.width = "auto"
+        }
+
+
+    </script>
 </body>
 
 </html>

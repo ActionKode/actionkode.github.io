@@ -9,13 +9,10 @@
 
 body {
     font-family: sans-serif;
-    background-color: black;
     color: #ffffff;
-}
-
-.textcenter {
-
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
 .color-white {
@@ -23,9 +20,40 @@ body {
 }
 
 .blog {
+    display: block;
     margin: auto;
     width: 50%;
     padding: 10px;
+    overflow: hidden;
     text-align: center;
+    align-items: center;
 
+}
+
+.hide {
+    visibility: visible;
+}
+
+.remove {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+/*
+.row {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+}*/
+
+.textcenter {
+    color: white;
+    text-align: center;
 }
