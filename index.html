@@ -5,13 +5,6 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/vendor/bootstrap-icons/bootstrap-icons.css">
-  <link rel="stylesheet" href="/vendor/boxicons/css/boxicons.min.css">
-  <link rel="stylesheet" href="/vendor/glightbox/css/glightbox.min.css">
-  <link rel="stylesheet" href="/vendor/remixicon/remixicon.css">
-  <link rel="stylesheet" href="/vendor/swiper/swiper-bundle.min.css">-->
-  <link rel="stylesheet" href="/css/header_fotter.css" />
   <link rel="stylesheet" href="/css/default.css">
   <link rel="stylesheet" href="/css/home.css">
   <title>Home</title>
@@ -30,7 +23,7 @@
 <body>
   <header>
     <div class="header">
-      <img src="/img/Action-Kode-logos_white.png" alt="Action Code logo">
+      <img id="homelogo" src="/img/Action-Kode-logos_white.png" alt="Action Code logo">
       <div class="header-right">
         <a class="active" href="/#home">Home</a>
         <a href="/games/index.html">Games</a>
@@ -42,7 +35,7 @@
     style="display: block;  margin-left: auto; margin-right: auto; margin-top: 1px; width: 79vw;">
 
   <main id="main">
-    <section id="team" class="team">
+    <div id="team" class="team">
       <div class="row" style="max-width: 100vw; background-color: black;">
         <div class="column" style="background-color: black;">
           <div class="card">
@@ -54,7 +47,7 @@
         </div>
         <div class="column">
           <div class="card">
-            <img  src="/img/team/malakai250.jpg" alt="malakai">
+            <img src="/img/team/malakai250.jpg" alt="malakai">
             <div class="container">
               <h2>Malakai Gunderson</h2>
               <div class="title">Co-Founder &amp; lead developer</div>
@@ -64,13 +57,14 @@
                 </script>
                 Years.
               </div>
-              <div>language(s): python , C#.</div>
+              <div>language(s): python, gdscript.</div>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <img src="/img/team/adon250.jpg" alt="Adon">
+            <div style="width:250px;height:250px;"><img src="/img/team/adon250.jpg" alt="Adon"></div>
+
             <div class="container">
               <h2>Adon Lotriet</h2>
               <div class="title">Co-Founder &amp; lead developer</div>
@@ -84,16 +78,8 @@
             </div>
           </div>
         </div>
-        <div class="column" style="background-color: black;">
-          <div class="card" style="background-color: black;">
-            <div class="container" style="background-color: black;">
-              <h2></h2>
-              <div class="title"></div>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer>
@@ -129,11 +115,6 @@
       </p>
     </div>
   </footer>
-  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="/vendor/php-email-form/validate.js"></script>
 </body>
 
 </html>

@@ -9,9 +9,10 @@ Three columns side by side */
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 950px) {
     .column {
-        width: 100%;
+        width: calc(100% - 10px);
+        padding-right: 0px;
         display: block;
     }
 }
