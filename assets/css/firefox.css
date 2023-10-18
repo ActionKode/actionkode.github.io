@@ -1,0 +1,12 @@
+@-moz-document url-prefix() {
+
+    header a {
+        padding: 12px;
+    }
+
+    #hedder-links {
+        width: 50%;
+        height: 44px;
+    }
+
+}
